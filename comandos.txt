@@ -1,0 +1,27 @@
+# Virtual Python
+
+pip install virtualenv
+pip install virtualenvwrapper-win
+mkvirtualenv ppe
+workon ppe
+deactivate
+
+python -m venv virtual_python
+.\virtual_python\Scripts\activate
+
+
+pip freeze
+>python.exe -m pip install --upgrade pip
+
+
+# Django
+pip install django
+django-admin startproject core .
+python manage.py migrate
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py startapp core
+python manage.py makemigrations
+
+#Django rest
+pip install djangorestframework
