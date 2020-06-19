@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['https://pontos-turisticos-pet.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['pontos-turisticos-pet.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
