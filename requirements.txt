@@ -1,5 +1,9 @@
 asgiref==3.2.9
 Django==3.0.7
+<<<<<<< HEAD
+django-filter==2.3.0
+=======
+>>>>>>> d6ecb726bf3a54cc8470fe4a658568efae4b9f17
 djangorestframework==3.11.0
 Pillow==7.1.2
 pytz==2020.1
